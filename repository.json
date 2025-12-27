@@ -7,12 +7,10 @@
         }
     },
     "name": "GB KiCad repository",
-    "packages": [
-        {
-            "sha256": "d5d588b547a3d12f07df4d69f316d1b48dcb7916aca74c0e41a43da73405d3e7",
-            "update_time_utc": "2025-12-27 14:00:00",
-            "update_timestamp": 1735308000,
-            "url": "https://raw.githubusercontent.com/GlassyBridge/GB-kicad-repository/main/packages.json"
-        }
-    ]
+    "packages": {
+        "sha256": "d5d588b547a3d12f07df4d69f316d1b48dcb7916aca74c0e41a43da73405d3e7",
+        "update_time_utc": "2025-12-27 14:00:00",
+        "update_timestamp": 1735308000,
+        "url": "https://raw.githubusercontent.com/GlassyBridge/GB-kicad-repository/main/packages.json"
+    }
 }
