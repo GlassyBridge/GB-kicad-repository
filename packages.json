@@ -1,338 +1,37 @@
 {
     "packages": [
-        {
+                {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "marbastlib",
-            "description": "A collection of symbols/footprints for keyboard design",
-            "description_full": "This library focuses on keyboard design, and features - among others - footprints for Cherry MX, Alps SKCM, Hi-Tek 725, Kailh Choc v1 and v2.",
-            "identifier": "com.github.ebastler.marbastlib",
+            "name": "GB114",
+            "description": "Fix by Izumi-No",
+            "description_full": "A library for temporary fixes I find",
+            "identifier": "com.github.glassybridge.tempfixforkb",
             "type": "library",
             "author": {
-                "name": "ebastler and MarvFPV",
-                "contact": {}
-            },
-            "maintainer": {
-                "name": "ebastler and MarvFPV",
+                "name": "ME",
                 "contact": {
-                    "discord": "https://discord.gg/UEhmQbQw"
+                    "web": "https://mywebsite.com"
                 }
             },
-            "license": "CERN-OHL",
+            "maintainer": {
+                "name": "Glassybridge",
+                "contact": {
+                    "web": "https://mywebsite.com"
+                }
+            },
+            "license": "GPL-3.0",
             "resources": {
-                "homepage": "https://github.com/ebastler/marbastlib"
+                "homepage": "https://github.com/GlassyBridge/kicad-kbplacer"
             },
             "versions": [
                 {
-                    "version": "2023.05.17",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "ca79ee84024c640c4455cc0a9fddb31dde0731181e4fe95b4ee8aa7cfb58f342",
-                    "download_size": 2687191,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.05.17/KiCAD-PCM-2023.05.17.zip",
-                    "install_size": 14322877
-                },
-                {
-                    "version": "2023.05.31",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "a9e9127de5a9b9f5b07d759fd1957d9b120fe528e4be24d1692d88ec575d8a49",
-                    "download_size": 3083996,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.05.31/KiCAD-PCM-2023.05.31.zip",
-                    "install_size": 16642285
-                },
-                {
-                    "version": "2023.07.06",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "40786ac04c53b80cd665209e419ed72cd40c8b1843148c4317ea3de544d41739",
-                    "download_size": 3085431,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.07.06/KiCAD-PCM-2023.07.06.zip",
-                    "install_size": 16648795
-                },
-                {
-                    "version": "2023.07.07",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "2a20c2d5d0143555db6e583d1a9bd7edb2308aaf5f18fa7416a5db36689fdd86",
-                    "download_size": 3719277,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.07.07/KiCAD-PCM-2023.07.07.zip",
-                    "install_size": 20120446
-                },
-                {
-                    "version": "2023.07.08",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "a1b0d235333b74d8b26bc9a28cc007bbd939c1841d3c6bf08737f4c0c5fc07a2",
-                    "download_size": 3719067,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.07.08/KiCAD-PCM-2023.07.08.zip",
-                    "install_size": 20120017
-                },
-                {
-                    "version": "2023.08.09",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "bce64151f3f0d7c92bb685040c53d6d503d274aabcaeb85f0179441cbf4bd7c4",
-                    "download_size": 3733142,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.08.09/KiCAD-PCM-2023.08.09.zip",
-                    "install_size": 20166365
-                },
-                {
-                    "version": "2023.08.15",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "ed5e6be86edd66c95343a352b3013a381b5687ab419525423b15d54f50093435",
-                    "download_size": 3733775,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.08.15/KiCAD-PCM-2023.08.15.zip",
-                    "install_size": 20169994
-                },
-                {
-                    "version": "2023.08.30",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "e92ec439acc106740bb2cfd49ba72f43d0de974ecc039a221ad58949eec0416d",
-                    "download_size": 3733770,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.08.30/KiCAD-PCM-2023.08.30.zip",
-                    "install_size": 20169989
-                },
-                {
-                    "version": "2023.09.11",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "7de554063dad3e98bf1e8acd04a763837b8d4708258c1073b863c421c54cef5e",
-                    "download_size": 4035981,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.09.11/KiCAD-PCM-2023.09.11.zip",
-                    "install_size": 22187878
-                },
-                {
-                    "version": "2023.09.12",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "9a09324c75ca4152be23a555fdb03aaeea75bf99615f98bd2493e936928b4f16",
-                    "download_size": 3927206,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.09.12/KiCAD-PCM-2023.09.12.zip",
-                    "install_size": 21319399
-                },
-                {
-                    "version": "2023.09.25",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "0a0b58a0799a653f5c4d471f5f37a6ab01f97c5c6045a5d9cfcb0cce08bf31fa",
-                    "download_size": 3931394,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.09.25/KiCAD-PCM-2023.09.25.zip",
-                    "install_size": 21329977
-                },
-                {
-                    "version": "2023.10.31",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "36075987e291bdf80a6457f0f03d39dfbc6949a9d819a1e0709de7055d5e4253",
-                    "download_size": 3946012,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2023.10.31/KiCAD-PCM-2023.10.31.zip",
-                    "install_size": 21411884
-                },
-                {
-                    "version": "2024.01.01",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "fde0e5f2b15c2d9c442adb9eab212024dca29187e63687113b4ae4d0684f7a00",
-                    "download_size": 4071168,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.01.01/KiCAD-PCM-2024.01.01.zip",
-                    "install_size": 22107365
-                },
-                {
-                    "version": "2024.01.17",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "0954a28341f80f9696a695e38452243dbde1d0469b2711be90999e7b6e92dcf9",
-                    "download_size": 4071657,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.01.17/KiCAD-PCM-2024.01.17.zip",
-                    "install_size": 22116318
-                },
-                {
-                    "version": "2024.02.18",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "3e010b28d1fba4bd2921a9dabb81890715ea412e1be364fe687b612cde671809",
-                    "download_size": 4072261,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.02.18/KiCAD-PCM-2024.02.18.zip",
-                    "install_size": 22123719
-                },
-                {
-                    "version": "2024.02.20",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "989d55c325a0841bee0bbc7e4290a9939a1b45c1963b75a26e90a9dcbe559217",
-                    "download_size": 4529845,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.02.20/KiCAD-PCM-2024.02.20.zip",
-                    "install_size": 24373764
-                },
-                {
-                    "version": "2024.02.21",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "50fc770a0e329fb0c484547c611cb6881c0812c8dacbbb4aa0d6bb6fa7aea824",
-                    "download_size": 4736069,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.02.21/KiCAD-PCM-2024.02.21.zip",
-                    "install_size": 25447111
-                },
-                {
-                    "version": "2024.02.29",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "3d329bc3f19fc59de362a89e2524b00f846c3599398650f6b397385165199d45",
-                    "download_size": 4748323,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.02.29/KiCAD-PCM-2024.02.29.zip",
-                    "install_size": 25484542
-                },
-                {
-                    "version": "2024.03.01",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "c50a7480393153e8613bbc502a906e87a4997306ae8c8a035be73ce3658d6172",
-                    "download_size": 4911143,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.03.01/KiCAD-PCM-2024.03.01.zip",
-                    "install_size": 26399289
-                },
-                {
-                    "version": "2024.03.15",
-                    "status": "testing",
-                    "kicad_version": "7.0",
-                    "download_sha256": "5cc77bbb0b7d95fd70e22608bf768b3522cdd6b0bbd028e1d807a20c2b2873e5",
-                    "download_size": 5104524,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.03.15/KiCAD-PCM-2024.03.15.zip",
-                    "install_size": 27710180
-                },
-                {
-                    "version": "2024.03.30",
+                    "version": "1.0",
                     "status": "testing",
                     "kicad_version": "8.0",
-                    "download_sha256": "a50b432b1d6be4fcefd0b7dbe9eef054fb0196355164e644421512623a8cd262",
-                    "download_size": 5104549,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.03.30/KiCAD-PCM-2024.03.30.zip",
-                    "install_size": 27710199
-                },
-                {
-                    "version": "2024.04.17",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "545dacd26aead71fd1f17fb57e2ec06838db46cdafb55fb5f1e70a92fbbc4676",
-                    "download_size": 5228677,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.04.17/KiCAD-PCM-2024.04.17.zip",
-                    "install_size": 28518995
-                },
-                {
-                    "version": "2024.07.10",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "ba716304e6b85e0ce43ec2bd8c401fb9fb3fa9b2705177442cab001f6a200841",
-                    "download_size": 6300070,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.07.10/KiCAD-PCM-2024.07.10.zip",
-                    "install_size": 35442601
-                },
-                {
-                    "version": "2024.07.11",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "fed795023d37e9c9326153c034c3e389599faddec1aa9ebab02391ab3845d089",
-                    "download_size": 6300608,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.07.11/KiCAD-PCM-2024.07.11.zip",
-                    "install_size": 35443971
-                },
-                {
-                    "version": "2024.07.13",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "fdb09480632b0e19561a9f03e1f6b7a6ddcf43afed75aeb3b9fda7989a665dc1",
-                    "download_size": 6370578,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.07.13/KiCAD-PCM-2024.07.13.zip",
-                    "install_size": 35848170
-                },
-                {
-                    "version": "2024.08.18",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "207d7c5e3b46f82bacb31d53e772011c0cfe5502ce275d370e4c2d94ba478a3e",
-                    "download_size": 6586399,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2024.08.18/KiCAD-PCM-2024.08.18.zip",
-                    "install_size": 37134812
-                },
-                {
-                    "version": "2025.02.16",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "87d2af2ae08280b85b0719edfbc2f82e095543a72869ab08d736b522c21f0b54",
-                    "download_size": 6640677,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2025.02.16/KiCAD-PCM-2025.02.16.zip",
-                    "install_size": 37316925
-                },
-                {
-                    "version": "2025.06.14",
-                    "status": "testing",
-                    "kicad_version": "9.0",
-                    "download_sha256": "1c35d1344c93f0de7c257e21516141347ab9f647940d02ed9f95bb52825694b7",
-                    "download_size": 6640551,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2025.06.14/KiCAD-PCM-2025.06.14.zip",
-                    "install_size": 37315771
-                },
-                {
-                    "version": "2025.08.03",
-                    "status": "testing",
-                    "kicad_version": "9.0",
-                    "download_sha256": "13b1912bd2235f386ac32cdb5ad1852e509456a8ad26db2ba1d1e3fe6ce5016d",
-                    "download_size": 6649949,
-                    "download_url": "https://github.com/ebastler/marbastlib/releases/download/2025.08.03/KiCAD-PCM-2025.08.03.zip",
-                    "install_size": 37385686
-                }
-            ]
-        },
-        {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "connect-traces",
-            "description": "A KiCAD plugin to connect two random traces",
-            "description_full": "This plugin connects two traces with one another by extending or shortening both until they intersect.",
-            "identifier": "com.github.ebastler.connect-traces",
-            "type": "plugin",
-            "author": {
-                "name": "elpekenin",
-                "contact": {}
-            },
-            "maintainer": {
-                "name": "elpekenin and ebastler",
-                "contact": {
-                    "discord": "https://discord.gg/UEhmQbQw"
-                }
-            },
-            "license": "MIT",
-            "resources": {
-                "homepage": "https://github.com/ebastler/connect-traces"
-            },
-            "versions": [
-                {
-                    "version": "2024.03.31",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "8bae70e0ad9f5d3b93d88139eae8592847149fbc9011f25bfe383d0c9f29f486",
+                    "download_sha256": "47d0c9f29f48111f25b8bae70e88139ea49fbc90e85928fe0ad9f5d3b93d3836",
                     "download_size": 5896,
-                    "download_url": "https://github.com/ebastler/connect-traces/releases/download/2024.03.31/KiCAD-PCM-2024.03.31.zip",
+                    "download_url": "https://github.com/GlassyBridge/kicad-kbplacer/releases/download/v1.0.0/PCB-v1.0.zip",
                     "install_size": 7919
-                },
-                {
-                    "version": "2024.04.01",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "6f17314767049e3695fd65b62502469a040c5d741210ba0bfacfe33ffd41b0f9",
-                    "download_size": 6361,
-                    "download_url": "https://github.com/ebastler/connect-traces/releases/download/2024.04.01/KiCAD-PCM-2024.04.01.zip",
-                    "install_size": 10094
-                },
-                {
-                    "version": "2024.04.02",
-                    "status": "testing",
-                    "kicad_version": "8.0",
-                    "download_sha256": "612fa62c10ba99159c4d64fb47903c229c426a0bb2d80c5b2bd0931bf0c06b92",
-                    "download_size": 6784,
-                    "download_url": "https://github.com/ebastler/connect-traces/releases/download/2024.04.02/KiCAD-PCM-2024.04.02.zip",
-                    "install_size": 11353
                 }
             ]
         }
