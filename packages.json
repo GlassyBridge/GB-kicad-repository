@@ -1,19 +1,14 @@
 {
     "packages": [
-                {
+        {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "GB114",
             "description": "Fix by Izumi-No",
             "description_full": "A library for temporary fixes I find",
             "identifier": "com.github.glassybridge.tempfixforkb",
             "type": "library",
-            "author": {
-                "name": "ME",
-                "contact": {
-                    "web": "https://mywebsite.com"
-                }
-            },
-            "maintainer": {
+            "author": { "name": "ME" },
+            "maintainer": { 
                 "name": "Glassybridge",
                 "contact": {
                     "web": "https://mywebsite.com"
@@ -26,9 +21,9 @@
             "versions": [
                 {
                     "version": "1.0",
-                    "status": "testing",
+                    "status": "stable",
                     "kicad_version": "8.0",
-                    "download_sha256": "a9689cf3850667760948b8c8b3c22fd855d85fc7dd7b587f07b2ef94ab34a9c9",
+                    "download_sha256": "cbb358bd8adaed62149c806e15910b7864004404ad7417e6efac3fb3f2e808e0",
                     "download_size": 5896,
                     "download_url": "https://github.com/GlassyBridge/kicad-kbplacer/releases/download/v1.0.0/PCB-v1.0.zip",
                     "install_size": 7919
